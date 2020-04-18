@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Audio Player</title>
+    <meta charset="UTF-8">
+    <meta name="author" content="Naina Gupta">
+    <link rel="stylesheet" href="style.css" media="screen">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="container">
+        <!--music cover-->
+        <div id="coverimage">
+            <img class="songcover" src="" />
+        </div>
+
+        <!-- controls and playlist -->
+        <div id="audioplayer">
+
+            <!-- song title and artist -->
+            <div id="audioinfo">
+                <span class="title"></span>
+                <span class="artist"></span>
+            </div>
+
+            <!-- controls -->
+            <div id="buttons">
+                <span>
+                    <button id="prev"></button>
+                    <button id="play"></button>
+                    <button id="pause"></button>
+                    <button id="stop"></button>
+                    <button id="next"></button>
+                </span>
+            </div>
+
+            <br>
+
+
+            <!-- tracker -->
+            <div id="tracker">
+                <div id="progressbar">
+                    <span id="progress"></span>
+                </div>
+                <span id="duration"></span>
+            </div>
+            
+            <br>
+            
+            <!-- playlist -->
+            <ul id="playlist">
+                <li song="Believer.mp3" cover="imaginedragons.jpg" artist="Imagine Dragons">Believer - Imagine Dragons
+                </li>
+                <li song="Numb.mp3" cover="numb.jpg" artist="Linkin Park">Numb - Linkin Park</li>
+                <li song="Attention.mp3" cover="attention.jpg" artist="Charlie Puth">Attention - Charlie Puth</li>
+                <li song="Look what you made me do.mp3" cover="taylorswift.jpg" artist="Taylor Swift">Look what you made
+                    me do - Taylor Swift</li>
+                <li song="Girls like you.mp3" cover="girlslikeyou.jpg" artist="Maroon 5">Girls like you - Maroon 5</li>
+                <li song="Crawling.mp3" cover="crawling.jpg" artist="Linkin Park">Crawling - Linkin Park</li>
+                <li song="We will rock you.mp3" cover="queen.jpg" artist="Queen-Bohemia">We will rock you -
+                    Queen-Bohemia</li>
+                <li song="Happier.mp3" cover="happier.jpg" artist="Marshmello">Happier - Marshmello</li>
+                <li song="Dusk till dawn.mp3" cover="dusktilldawn.jpg" artist="Zayn Malik">Dusk till dawn - Zayn Malik
+                </li>
+                <li song="Closer.mp3" cover="closer.jpg" artist="The Chainsmokers">Closer - The Chainsmokers</li>
+                <li song="Faded.mp3" cover="faded.jpg" artist="Alan Walker">Faded - Alan Walker</li>
+
+                <li song="Thunder.mp3" cover="imaginedragons.jpg" artist="Imagine Dragons">Thunder - Imagine Dragons
+                </li>
+                <li song="Don't let me down.mp3" cover="dontletmedown.jpg" artist="The Chainsmokers">Don't let me
+                    down - The Chainsmokers</li>
+                <li song="I don't care.mp3" cover="idontcare.jpg" artist="Ed Sheeran, Justin Bieber">I don't care - Ed
+                    Sheeran, Justin Bieber</li>
+                <li song="Talking to myself.mp3" cover="crawling.jpg" artist="Linkin Park">Talking to
+                    myself - Linkin Park</li>
+                <li song="FRIENDS OFFICIAL FRIENDZONE ANTHEM .mp3" cover="friends.jpg" artist="Marshmello">FRIENDS -
+                    Marshmello
+                </li>
+
+            </ul>
+
+        </div>
+
+    </div>
+
+</body>
+
+<script src="jquery.js"></script>
+<script src="script.js"></script>
+
+</html>
