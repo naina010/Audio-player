@@ -1,0 +1,142 @@
+body {
+	background-image: url(images/backgroundimage.jpg);
+	background-size: cover;
+	border: none;
+}
+
+#container {
+	height: 600px;
+	width: 950px;
+	overflow: hidden;
+	margin: 60px auto;
+	border: none;
+}
+
+#coverimage {
+	float: left;
+	width: 400px;
+	height: 600px;
+}
+
+.songcover {
+	background-size: cover;
+	position: relative;
+	overflow: hidden;
+	height: 600px;
+	width: 400px;
+}
+
+#audioplayer {
+	height: 600px;
+	width: 550px;
+	overflow: hidden;
+	background-color: rgba(30, 30, 30, 0.3);
+}
+
+#audioinfo {
+	text-align: center;
+	font-weight: bold;
+	margin-top: 10px;
+	font-size: large;
+	font-family: 'Cinzel', 'serif';
+}
+
+#buttons {
+	width: 90%;
+	display: block;
+	margin: 15px auto;
+	overflow: auto;
+	margin-left: 115px;
+}
+
+button#prev {
+	height: 33px;
+	width: 55px;
+	background: url(images/prev.png) no-repeat;
+	position: relative;
+	border: none;
+	margin: 5px;
+	cursor: pointer;
+}
+
+button#play {
+	height: 70px;
+	width: 70px;
+	background: url(images/play.png) no-repeat;
+	border: none;
+	margin: 5px;
+	cursor: pointer;
+}
+button#stop {
+	height: 70px;
+	width: 70px;
+	background: url(images/stop.png) no-repeat;
+	border: none;
+	margin: 5px;
+	cursor: pointer;
+}
+button#pause {
+	height: 70px;
+	width: 70px;
+	background: url(images/pause.png) no-repeat;
+	border: none;
+	margin: 5px;
+	cursor: pointer;
+}
+
+button#next {
+	height: 33px;
+	width: 55px;
+	background: url(images/next.png) no-repeat;
+	border: none;
+	margin: 5px;
+	cursor: pointer;
+}
+
+#playlist {
+	list-style-type: none;
+	padding: 10px;
+}
+
+#playlist li {
+	text-align: center;
+	cursor: pointer;
+	margin: 5px;
+}
+
+#playlist li.active {
+	font-weight: bold;
+	padding: 2px;
+	background-color: #6e91a1;
+}
+
+
+#tracker {
+	position: relative;
+	width: 100%;
+}
+
+#progressbar {
+	width: 80%;
+	margin-left: 25%;
+	margin-bottom: 20px;
+	margin-top: 9px;
+	height: 10px;
+	background: url(images/progress_bg.png) no-repeat;
+	float: left;
+}
+
+#progress {
+	background: url(images/progress.png) no-repeat;
+	height: 10px;
+	display: inline-block;
+	float: left;
+}
+
+#duration {
+	position: absolute;
+	right: 10px;
+	padding: 4px 8px;
+	background: rgba(0, 0, 0, 0.3);
+	border-radius: 5px;
+}
